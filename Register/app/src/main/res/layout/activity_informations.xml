@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:gravity="center"
+    tools:context=".Informations">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Information "
+        android:layout_marginBottom="50dp"
+        android:textSize="32sp"
+        android:textColor="#000"
+        ></TextView>
+
+    <TextView
+    android:id="@+id/result_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="your name is : "
+    android:textSize="20sp"
+    android:textColor="#000"
+    ></TextView>
+    <TextView
+        android:id="@+id/result_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your email is : "
+        android:textSize="16sp"
+        android:textColor="#000"
+        ></TextView>
+    <TextView
+        android:id="@+id/result_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your phone number is : "
+        android:textSize="20sp"
+        android:textColor="#000"
+        ></TextView>
+    <TextView
+        android:id="@+id/result_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your age is : "
+        android:textSize="20sp"
+        android:textColor="#000"
+        ></TextView>
+    <TextView
+        android:id="@+id/result_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your address is : "
+        android:textSize="20sp"
+        android:textColor="#000"
+        ></TextView>
+    <TextView
+        android:id="@+id/result_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your gender is : "
+        android:textSize="20sp"
+        android:textColor="#000"
+        ></TextView>
+
+</LinearLayout>
