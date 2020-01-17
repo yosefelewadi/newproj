@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.notesApps.firebaseauth">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!--        <activity android:name="com.notesApps.firebaseauth.IntroSliderActivity">-->
+<!--&lt;!&ndash;            <intent-filter>&ndash;&gt;-->
+<!--&lt;!&ndash;                <action android:name="android.intent.action.MAIN" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;-->
+<!--&lt;!&ndash;            </intent-filter>&ndash;&gt;-->
+<!--        </activity>-->
+        <activity
+            android:name="com.notesApps.firebaseauth.AllNotesActivity"
+            android:label="@string/title_activity_all_notes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.notesApps.firebaseauth.AddNoteBookActivity" />
+        <activity
+            android:name="com.notesApps.firebaseauth.AllNoteBooksActivity"
+            android:label="@string/title_activity_all_note_books"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.notesApps.firebaseauth.ForgotPasswordActivity" />
+        <activity
+            android:name="com.notesApps.firebaseauth.NotebookActivity"
+            android:label="@string/title_activity_notebook"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.notesApps.firebaseauth.MainActivity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.notesApps.firebaseauth.AddNoteActivity" />
+        <activity android:name="com.notesApps.firebaseauth.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.notesApps.firebaseauth.SignUpActivity" />
+        <activity android:name="com.notesApps.firebaseauth.LoginActivity" />
+    </application>
+
+</manifest>
